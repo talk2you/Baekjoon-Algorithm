@@ -22,7 +22,6 @@ int main(void)
                 break;
             }
             scale = temp;
-            
         }
     }
 
