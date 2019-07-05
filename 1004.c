@@ -31,9 +31,7 @@ int main(void)
         {
             scanf("%d %d %d",&cross.x,&cross.y,&cross.r);
             dist1 = sqrt(pow(start.x - cross.x,2) + pow(start.y - cross.y,2));
-            printf("dist1 : %f\n",dist1);
             dist2 = sqrt(pow(end.x - cross.x,2) + pow(end.y - cross.y,2));
-            printf("dist2 : %f\n",dist2);
 
             if((dist1 > cross.r && dist2 < cross.r) || (dist1 < cross.r && dist2 > cross.r))
                 cnt++;
