@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    long scale,i=7;
+    long scale,i=7,test =0 ;
     long temp,judge;
 
     scanf("%ld",&scale);
